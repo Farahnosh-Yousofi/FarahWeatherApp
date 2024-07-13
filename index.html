@@ -4,58 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <title>Farah's Weather App</title>
-    
   </head>
   <body>
     <div class="weather-box">
-    <header>
+      <header>
         <form action="">
-       
-        <input type="text" id="city" name="city" placeholder="Enter a city.."/>
-        <button type="submit" id="search">Search</button>
-  
-    </form>
-    </header>
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Enter a city.."
+          />
+          <button type="submit" id="search">Search</button>
+        </form>
+      </header>
 
-    
+      <main>
+        <div class="weather-app-data">
+          <div class="weather-app-details">
+            <h1>Paris</h1>
+            <p>
+              Saturday 11:19, clear sky
+              <br />
+              Humidity: <span class="color">46%</span>, Wind:
+              <span class="color">4.63km/h</span>
+            </p>
+          </div>
 
-    <h1>Paris</h1>
-
-    <p>
-        <div>
-        Saturday 11:19, clear sky
-        <br>
-        Humidity:46%, Wind:4.63km/h
+          <div class="weather-app-temp">
+            <div class="icon">🌩️</div>
+            <div class="temp">22</div>
+            <div class="unit">°C</div>
+          </div>
         </div>
+      </main>
 
-        <div>
-            22 °C
-        </div>
-    </p>
-
-
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Farahnosh-Yousofi" target="_blank"
-        ><em>Farahnosh Yousofi</em></a
-      >, is open-sourced on
-      <a
-        href="https://github.com/Farahnosh-Yousofi/FarahWeatherApp"
-        target="_blank"
-        ><em>GitHub</em></a
-      >
-      and hosted on
-      <a href="https://weather-app-project0.netlify.app/" target="_blank"
-        ><em>Netlify</em></a
-      >
-    </footer>
-
-    
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Farahnosh-Yousofi" target="_blank"
+          ><em><strong>Farahnosh Yousofi</strong></em></a
+        >, is open-sourced on
+        <a
+          href="https://github.com/Farahnosh-Yousofi/FarahWeatherApp"
+          target="_blank"
+          ><em><strong>GitHub</strong></em></a
+        >
+        and hosted on
+        <a href="https://weather-app-project0.netlify.app/" target="_blank"
+          ><em><strong>Netlify</strong></em></a
+        >
+      </footer>
     </div>
-    <img src="src/weather.png" alt="" width="655px">
+    <img src="src/weather.png" alt="" width="655px" />
   </body>
 </html>
