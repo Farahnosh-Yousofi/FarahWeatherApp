@@ -1,0 +1,25 @@
+body {
+  background-color: #f3fce3;
+}
+
+.weather-box {
+  max-width: 600px;
+  background-color: white;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #5c940e;
+}
+
+img {
+  margin: 30px auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
