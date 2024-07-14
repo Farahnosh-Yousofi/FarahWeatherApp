@@ -12,12 +12,14 @@ function weatherApi(response) {
   let windElement = document.querySelector("#wind");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
 
   temp.innerHTML = ` ${Math.round(temperature)}`;
   descriptionElement.innerHTML = condition;
   humidityElement.innerHTML = humidity;
   windElement.innerHTML = windSpeed;
   timeElement.innerHTML = formatDate(date);
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 }
 
 function formatDate(date) {
@@ -59,3 +61,5 @@ function cityName(event) {
 
 let formInput = document.querySelector("#input");
 formInput.addEventListener("submit", cityName);
+
+cityWeather("Paris");

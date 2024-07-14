@@ -96,9 +96,11 @@ footer {
   margin-top: 30px;
 }
 
-.icon {
-  font-size: 50px;
-  margin-top: 40px;
+.weather-app-icon {
+  width: 68px;
+  height: 68px;
+  margin-top: 70px;
+  box-shadow: none;
 }
 
 .unit {
